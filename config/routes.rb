@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   # get("/your_first_screen", { :controller => "pages", :action => "first" })
   get("/", { :controller => "pages", :action => "home" })
 
-  get("/dice/2/6", { :controller => "pages", :action => "roll2d6"})
+  get("/dice/2/6", { :controller => "pages", :action => "roll_two_six"})
 
   get("/dice/2/10", { :controller => "pages", :action => "roll2d10"})
 
